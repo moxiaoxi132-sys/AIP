@@ -1,19 +1,21 @@
-<div align="center">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e9d24d47-fe88-4322-be29-64507e0e6cd7" alt="AIP · 墨诩自研 MoXu ZiYan Lab" width="100%" />
+</p>
 
-# AIP · 大模型提示词安全评测平台
+<h1 align="center">AIP · 大模型提示词安全评测平台</h1>
 
-**Prompt Security Evaluation & Red-Team Platform**
+<p align="center">
+  <b>面向 LLM 应用的红队演练 · 越狱评测 · 风险报告平台</b><br/>
+  <sub>Prompt Security Evaluation &amp; Red-Team Platform</sub><br/>
+  <sub>状态：内核已跑通 · 代码即将开源 · Coming Soon</sub>
+</p>
 
-面向 LLM 应用的红队演练、越狱评测与风险报告平台
-
-<sub>状态：内核已跑通 · 代码即将开源 · Coming Soon</sub>
-
-![status](https://img.shields.io/badge/status-coming%20soon-0b0f19?style=flat-square)
-![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-2563eb?style=flat-square)
-![engine](https://img.shields.io/badge/engine-Go%20%2B%20React%20%2B%20Python-16a34a?style=flat-square)
-![license](https://img.shields.io/badge/license-to%20be%20announced-6b7280?style=flat-square)
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/status-coming%20soon-0b0f19?style=flat-square" alt="status" />
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-2563eb?style=flat-square" alt="platform" />
+  <img src="https://img.shields.io/badge/engine-Go%20%2B%20React%20%2B%20Python-16a34a?style=flat-square" alt="engine" />
+  <img src="https://img.shields.io/badge/license-to%20be%20announced-6b7280?style=flat-square" alt="license" />
+</p>
 
 ---
 
@@ -39,12 +41,12 @@ AIP 是一套本地部署的大模型安全评测平台。它把「攻击手法 
 ## 工作流
 
 ```mermaid
-flowchart LR
-    A["配置被测模型<br/>+ 裁判模型"] --> B["选择评测集<br/>与样本规模"]
-    B --> C["组合攻击手法"]
-    C --> D["批量执行<br/>并发调度"]
-    D --> E["自动判定<br/>打分归类"]
-    E --> F["生成报告<br/>导出归档"]
+flowchart TD
+    A["① 配置被测模型与裁判模型"] --> B["② 选择评测集与样本规模"]
+    B --> C["③ 组合攻击手法"]
+    C --> D["④ 批量执行 · 并发调度"]
+    D --> E["⑤ 自动判定 · 打分归类"]
+    E --> F["⑥ 生成报告 · 导出归档"]
 ```
 
 ## 技术构成
@@ -68,13 +70,10 @@ flowchart LR
 
 关注本仓库即可，开源当天会在这里放发布说明。想先聊、想提前试用、想提需求，扫码进群：
 
-<div align="center">
-
-<img src="assets/join-group.svg" width="200" alt="交流群二维码" />
-
-**扫码加入交流群**
-
-</div>
+<p align="center">
+  <img src="assets/join-group.svg" width="220" alt="交流群二维码" /><br/>
+  <b>扫码加入交流群</b>
+</p>
 
 ## 使用边界
 
@@ -82,6 +81,11 @@ flowchart LR
 
 ---
 
-<div align="center">
-<sub>AIP · Built for defenders.</sub>
-</div>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8013ab61-cf21-4fb9-8533-00c0adca4633" alt="MoXu ZiYan Lab" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/67d1d685-218f-44d5-b554-314db02a90e6" width="72" alt="logo" /><br/>
+  <sub>AIP · Built for defenders. · 墨诩自研 MoXu ZiYan Lab</sub>
+</p>
